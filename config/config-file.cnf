@@ -1,0 +1,8 @@
+[mysqld]
+#default_time_zone=Europe/Amsterdam
+#default_time_zone='Europe/Amsterdam'
+#default_time_zone=Europe/Amsterdam
+#default_time_zone="Europe/Amsterdam"
+#default-time-zone="Europe/Amsterdam"
+#default-time-zone='Europe/Amsterdam'
+#default-time-zone=Europe/Amsterdam

@@ -1,0 +1,11 @@
+version: '3'
+services:
+    db:
+        image: mysql:5.6.37
+        environment:
+            TZ: Europe/Amsterdam
+            MYSQL_ROOT_PASSWORD: root123
+        volumes:
+          - ./config/timezone:/etc/timezone
+          - /etc/localtime:/etc/localtime:ro  
+          - ./data:/var/lib/mysql
